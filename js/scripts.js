@@ -18,12 +18,5 @@ $(document).ready(function(){
 		$("#madlibs").show();
 		$('#form').hide();
 		return false;
-
-
-
-
-
 	});
-
-
 });
