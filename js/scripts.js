@@ -2,7 +2,6 @@ $(document).ready(function(){
 	$("#madlibs").hide();
 
 	$('#button').click(function(event) {
-		$("#madlibs").show();
 
 		var adj1 = $('#adjective1').val();
 		var noun = $('#pluralnoun').val();
@@ -15,6 +14,9 @@ $(document).ready(function(){
 		$('#input3').append(body);
 		$('#input4').append(adj2);
 		$('#input5').append(adj3);
+
+		$("#madlibs").show();
+		return false;
 
 	});
 
