@@ -16,7 +16,12 @@ $(document).ready(function(){
 		$('#input5').append(adj3);
 
 		$("#madlibs").show();
+		$('#form').hide();
 		return false;
+
+
+
+
 
 	});
 
